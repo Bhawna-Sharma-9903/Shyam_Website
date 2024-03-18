@@ -27,13 +27,13 @@ const Navbar = () => {
         <li onClick={() => {setMenu("new")}} className="nav-item">
           <Link to= "/new" style={menu === "new" ? { color: "#A63030" } : { color: "black" }}>NEW </Link> 
         </li>
-        <li onClick={() => {setMenu("daily_items")}} className="nav-item"> 
+        <li onClick={() => {setMenu("daily_items")}} className="nav-item flexible-item"> 
           <Link to="/daily_items" style={menu === "daily_items" ? { color: "#A63030" } : { color: "black" }}>DAILY ITEMS </Link>
         </li>
         <li onClick={() => {setMenu("festivals")}} className="nav-item">
           <Link to= "/festivals" style={menu === "festivals" ? { color: "#A63030" } : { color: "black" }}>FESTIVALS </Link>
         </li>
-        <li onClick={() => {setMenu("healing_items")}} className="nav-item">
+        <li onClick={() => {setMenu("healing_items")}} className="nav-item flexible-item">
           <Link to="/healing_items" style={menu === "healing_items" ? { color: "#A63030" } : { color: "black" }}>HEALING ITEMS </Link></li>
         <li onClick={() => {setMenu("about_us")}} className="nav-item">
           <Link to="/about" style={menu === "about_us" ? { color: "#A63030" } : { color: "black" }}>ABOUT US</Link>

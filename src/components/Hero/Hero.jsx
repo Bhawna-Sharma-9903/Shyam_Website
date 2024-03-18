@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import './Hero.css'
 // import Carousel  from '../Carousel'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,9 +14,26 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 // import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
 
+
 function MySlider() {
+
+  // const[quote,setquote] = useState([]);
+  const fetchQuote= async()=>{
+    const data=await fetch('https://shloka.onrender.com/api/v1/bahgavad_gita/random')
+    const quote= await data.json();
+    console.log(quote[0]);
+    // setquote(quote[0])
+  }
+
+  useEffect(() =>{
+    fetchQuote();
+  });
+
   return (
     <div className='hero'>
+      <div className="daily_gyaan">
+        <h5>||  jīveṣu karuṇā cāpi maitrī teṣu vidhīyatām ||  - Be compassionate and friendly to all living beings.​ ।</h5>
+      </div>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -31,9 +48,9 @@ function MySlider() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={image1} alt='' style={{width: '100%', height: '100%', objectFit:"contain"}} /></SwiperSlide>
-        <SwiperSlide><img src={image2} alt='' style={{width: '100%', height: '100%', objectFit:"contain"}} /></SwiperSlide>
-        <SwiperSlide><img src={image3} alt='' style={{width: '100%', height: '100%', objectFit:"contain"}} /></SwiperSlide>
+        <SwiperSlide><img src={image1} alt='' style={{width: '100%', height: '100%'}} /></SwiperSlide>
+        <SwiperSlide><img src={image2} alt='' style={{width: '100%', height: '100%'}} /></SwiperSlide>
+        <SwiperSlide><img src={image3} alt='' style={{width: '100%', height: '100%'}} /></SwiperSlide>
       </Swiper>
     </div>
   );

@@ -1,3 +1,11 @@
+.daily_gyaan{
+  padding: 1px;
+  background-color: #FFEDAC;
+  margin: -10px 57px 18px 57px ;
+  color:rgba(78, 53, 7, 0.867);
+  padding-left: 60px;
+}
+
 
 .swiper {
   width: 99vw;
@@ -20,10 +28,11 @@
 
 .swiper-slide img {
   display: flex;
-  width: 50%;
+  width: 100%;
+  border-radius: 0 210px 210px 0;
   align-items: center;
   justify-self: center;
-  height: 50%;
-  object-fit: cover;
+  height: 100%;
+  object-fit: none;
   margin-right: 5rem;
 }
