@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap');
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  font-family: amaranth;
+  /* background-color: #fae7e7; */
+
+}
+
+
+
+@media screen and (max-width: 768px){
+  .navbar-logo{
+ height: 15%;
+ width: 15%;
+}
+}
+
+
+
+
+
+
