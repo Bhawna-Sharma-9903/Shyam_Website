@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap');
+.popular-item{
+    background-color: #CE8964;
+    padding: 20px;
+    margin-top: 50px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius:300px ;
+}
+
+.pop-products{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+h2{
+    color: white;
+    font-family:Amaranth;
+    padding-top: 20px;
+}
+
+hr{
+    color: white;
+    background-color: white;
+    width: 90vh;
+    height: 6px;
+    border-radius: 10px;
+    
+}

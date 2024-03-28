@@ -1,38 +1,12 @@
 .daily_gyaan{
-  padding: 1px;
+  padding: 12px;
   background-color: #FFEDAC;
-  margin: -10px 57px 18px 57px ;
+  margin: -10px 10px 18px 0 ;
   color:rgba(78, 53, 7, 0.867);
-  padding-left: 60px;
+  /* font-size: 12px; */
+  font-style:initial;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 33px;
 }
 
 
-.swiper {
-  width: 99vw;
-  height: 50vh;
-  margin-left: 2rem;
-  margin-right: 5rem;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  /* margin-left: 1.5rem; */
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.swiper-slide img {
-  display: flex;
-  width: 100%;
-  border-radius: 0 210px 210px 0;
-  align-items: center;
-  justify-self: center;
-  height: 100%;
-  object-fit: none;
-  margin-right: 5rem;
-}

@@ -9,9 +9,10 @@
   font-family: Amaranth;
   display: flex;
   align-items: center;
+  margin-left: -50px;
   /* flex-direction: row; */
   justify-content: space-around;
-  gap:10rem;
+  gap:9rem;
   font-size: 0.9rem;
   font-style: normal;
   line-height: normal;
@@ -25,15 +26,15 @@
   justify-content: center;
   align-items: center;
   gap: 32px;
-  margin-top: 60px;
+  margin-top: 80px;
   cursor: pointer;
   padding: 0;
 }
 
 
 .navbar-logo{
- height: 12%;
- width: 12%;
+ height: 100%;
+ width: 100%;
 }
 
 .nav-icons{

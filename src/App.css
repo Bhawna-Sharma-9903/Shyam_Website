@@ -1,11 +1,13 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@700&display=swap');
 .container{
   display: flex;
   flex-direction: column;
   justify-content: center;
-   align-items: center; 
-   margin: 0 auto;
+  align-items: center; 
+  margin: 0 auto;
   width: 100%;
   height: 100%;
+  font-family: amaranth;
   /* background-color: #fae7e7; */
 
 }

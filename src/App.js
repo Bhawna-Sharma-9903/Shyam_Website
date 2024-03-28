@@ -1,5 +1,7 @@
 
 import './App.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Home from './Pages/Home';
@@ -8,6 +10,7 @@ import Product from './Pages/Product'
 import Categories  from './Pages/Categories'
 import Cart from './Pages/Cart'
 import LoginSignup from './Pages/LoginSignup'  ;
+
 
 
 
